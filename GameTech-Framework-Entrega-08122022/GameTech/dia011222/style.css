@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+
+nav{
+    background-image: url("image/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    background-color: #EFF0F4;
+}
+
+.textprin{
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+.tm-card{
+    height:195px; 
+    width:170px;
+    cursor: pointer;
+}
+
+.cor-btn{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    background-color: #009EFF;
+}
+.cor-btn:hover{
+    background-color:#009dffb3 ;
+    color: #ffffff;
+}
+
+
+.btn-lanca{
+    font-family: 'Rubik', sans-serif;
+    background-color: #3F0071;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.btn-lanca:hover{
+    background-color: #3e0071b6;
+    color: #ffffff62;
+}
+footer{
+    background-color: #131A34;
+}
+
+footer > div > a{
+    text-decoration: none;
+}
+
+.btn-google{
+    background-color: #dd4b39;
+    color: white;
+}
+.btn-insta{
+    background-color:#ac2bac ;
+    color: white;
+
+}
+.btn-linke{
+    background-color: #0082ca;
+    color: white;
+
+}
+.btn-github{
+    background-color: #333333;
+    color: white;
+
+}
+
+
+.btn-google:hover,.btn-insta:hover,.btn-linke:hover,.btn-github:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
